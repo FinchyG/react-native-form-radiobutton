@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { RadioButton } from 'react-native-paper';
-import H2Header from './components/H2Header';
+import H2Heading from './components/H2Heading';
 
 const styles = StyleSheet.create({
   container: {
@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <H2Header
+      <H2Heading
         textContent="React Native Form Radio Button Example"
       />
       <H2Header
